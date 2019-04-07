@@ -1,0 +1,38 @@
+@media all and (max-width: 1024px) {
+	.hero-text h1 {
+		font-size: rem-calc(50);
+		margin: 18% 0 0;
+	}
+}
+@media all and (max-width: 768px) {
+	.hero-text h1 {
+		font-size: rem-calc(50);
+		margin: 15% 0 0;
+	}
+}
+@media all and (max-width: 480px) {
+	.hero-text h1 {
+		font-size: rem-calc(36);
+		margin: 7% 0 7%;
+	}
+	.hero-text {
+		position: relative;
+	}
+	.welcome h2 {
+		font-size: rem-calc(30);
+	}
+	.phone {
+		font-size: rem-calc(46);
+	}
+	.phoneline li {
+		margin: 0;
+	}
+	.footer section {
+		padding: 20px 20px 10px;
+		margin: 20px 20px;
+	}
+	h2 {
+	font-size: rem-calc(50);
+	line-height: 1;
+}
+}

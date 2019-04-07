@@ -11,6 +11,9 @@ require_once('library/cleanup.php');
 // Required for Foundation to work properly
 require_once('library/foundation.php');
 
+// Add Post Types
+require_once('library/post-types.php');
+
 // Register all navigation menus
 require_once('library/navigation.php');
 
