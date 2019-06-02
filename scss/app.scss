@@ -48,10 +48,13 @@
 
 /* Site structure */
 @import "site/structure"; // Your site structure
-@import "site/productspecs"; // Product Specs Styles
+
+/* Import Libraries */
+@import "../node_modules/font-awesome/scss/font-awesome";
 
 /* Custom */
 @import "config/custom"; // Your custom variables
+@import "site/productspecs"; // Product Specs Styles
 
 /* Media Queries */
 @import "config/media"; // Your custom variables
